@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=UserWarning, message="Please use `tor
 model = YOLO("yolov8n.pt")  # Use "yolov8s.pt" or "yolov8m.pt" for better accuracy
 
 # Streamlit UI
-st.title("🏥 Object Detectio  Using Yolov8")
+st.title("Object Detection Using Yolov8")
 st.sidebar.header("Settings")
 confidence_threshold = st.sidebar.slider("Confidence Threshold", 0.1, 1.0, 0.5)
 
